@@ -111,7 +111,7 @@ declare module 'launchdarkly-electron-client-sdk' {
      * state could not be computed (for instance, because the client was offline or there
      * was no user).
      */
-    valid: boolean;
+    $valid: boolean;
 
     /**
      * Returns the value of an individual feature flag at the time the state was recorded.
